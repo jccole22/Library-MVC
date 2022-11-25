@@ -12,7 +12,7 @@ namespace LibraryMVC.Controllers
 {
     public class BooksController : Controller
     {
-        //happy thanksgiving
+        
         private readonly LibraryContext _context;
 
         public BooksController(LibraryContext context)

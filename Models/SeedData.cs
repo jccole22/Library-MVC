@@ -19,11 +19,11 @@ namespace LibraryMVC.Models
                 }
                 // this will add default books when program starts
                 // this is called 'seeding' data
-                context.Book.AddRange(new Book { Title = "Clean Code", CallNumber = "SE 1.3 2008"}, // Robert Cecil Martin
-                new Book { Title = "Head First Design Patterns", CallNumber = "SE 1.2 2004" }, // Kathy Sierra
-                new Book { Title = "The Algorithm Design Manual", CallNumber = "SE 1.1 1997" }, // Steven Skiena
-                new Book { Title = "Refactoring to Patterns", CallNumber = "SE 1.21 2004" }, // Joshua Kerievsky
-                new Book { Title = "A Philosophy of Software Design", CallNumber = "SE 1.4 2018" }); // John Ousterhout
+                context.Book.AddRange(new Book { Title = "Clean Code", Author= "Robert Cecil Martin", CallNumber = "SE 1.3 2008"},
+                new Book { Title = "Head First Design Patterns", Author = "Kathy Sierra", CallNumber = "SE 1.2 2004" },
+                new Book { Title = "The Algorithm Design Manual", Author = "Steven Skiena", CallNumber = "SE 1.1 1997" },
+                new Book { Title = "Refactoring to Patterns", Author = "Joshua Kerievsky", CallNumber = "SE 1.21 2004" },
+                new Book { Title = "A Philosophy of Software Design", Author = "John Ousterhout", CallNumber = "SE 1.4 2018" });
 
                 context.SaveChanges();
             }

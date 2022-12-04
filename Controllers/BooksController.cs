@@ -12,11 +12,6 @@ namespace LibraryMVC.Controllers
 {
     public class BooksController : Controller
     {
-
-        //got covid today :(
-        // this is terrible
-        // i feel horrible
-        // turns out this is no joke
         
         private readonly LibraryContext _context;
 
